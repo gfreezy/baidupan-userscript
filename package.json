@@ -1,0 +1,17 @@
+{
+    "name": "baidupan-userscript",
+    "private": true,
+    "version": "0.0.0",
+    "scripts": {
+        "build": "esbuild src/index.ts --bundle --outfile=dist/index.user.js",
+        "watch": "node watch.js"
+    },
+    "dependencies": {
+        "@types/tampermonkey": "^4.0.5",
+        "chokidar": "^3.5.3",
+        "esbuild": "^0.14.21"
+    },
+    "author": "",
+    "license": "MIT",
+    "description": ""
+}
